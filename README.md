@@ -58,4 +58,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or feedback, please contact [Harshit Singh](harshitsingh05893312@gmail.com).
+For questions or feedback, please contact [harshitsingh05893312@gmail.com].
+
