@@ -52,10 +52,6 @@ Ensure you include required environment variables, dependencies, and model files
 
 Pull requests and issues are welcome to improve functionality, fix bugs, or add features.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 For questions or feedback, please contact [harshitsingh05893312@gmail.com].
