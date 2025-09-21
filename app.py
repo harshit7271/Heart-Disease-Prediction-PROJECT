@@ -51,4 +51,16 @@ if st.button("Predict"):
          st.error("The model predicts that you may have heart disease. Please consult a healthcare professional for a comprehensive evaluation.")
     else:
          st.success("The model predicts that you are unlikely to have heart disease. However, maintain a healthy lifestyle and regular check-ups.")
+st.sidebar.header("About")
+st.sidebar.info(
+    "We created this machine learning model to predict if a person is prone to any heart disease based on the thier medical reports or not "
+    "It is builtuilt with Streamlit & scikit-learn 💻"
+)
+name = st.sidebar.text_input("Enter patient name")
+with st.sidebar.expander("Rate your experience of using our application"):
+    rating = st.slider("Rate here", 1, 5, 3)
+    st.write(f"HEY {name}, You rated our application {rating} out of 5")
+
+
+
 
