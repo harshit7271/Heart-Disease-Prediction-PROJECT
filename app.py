@@ -11,7 +11,7 @@ st.title("Heart Disease Prediction by HARSHIT")
 st.markdown("This app predicts whether a person has heart disease based on various health parameters provided by you as input.")
 
 age = st.slider("Age", 10, 100, 20)
-sex = st.selectbox("SEX"['M', 'F'])
+sex = st.selectbox("SEX", ['M', 'F'])
 chest_pain = st.selectbox("Chest Pain Type", ['ATA', 'NAP', 'ta', 'ASY'])
 resting_bp = st.number_input("Resting Blood Pressure", 80, 200, 120)
 cholesterol = st.number_input("Cholesterol Level", 100, 600, 200)
@@ -51,3 +51,4 @@ if st.button("Predict"):
          st.error("The model predicts that you may have heart disease. Please consult a healthcare professional for a comprehensive evaluation.")
     else:
          st.success("The model predicts that you are unlikely to have heart disease. However, maintain a healthy lifestyle and regular check-ups.")
+
