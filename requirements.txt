@@ -1,5 +1,5 @@
 scikit-learn
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
 encode
